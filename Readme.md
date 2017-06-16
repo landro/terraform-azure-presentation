@@ -56,6 +56,7 @@ slidenumbers: true
 # terraform show
 
 - When manipulating **resources**, Terraform saves the current state i a .tfstate file (or S3, Consul)
+- Supports locking to prevent conflicting changes
 - Knows a **resource's** current state in the cloud
 
         terraform show
@@ -68,6 +69,8 @@ slidenumbers: true
 - Interpolation
 	- Functions (math, base64, join, lower, ...)
 - Count
+- Environments supported natively
+- Modules support (incl versioning)
 
 ---
 
@@ -133,5 +136,7 @@ slidenumbers: true
 - Perform incremental changes to your infrastructure
 - Can combine several cloud providers in your infrastructure
 
-[github.com/landro](http://github.com/landro)
-@landro
+[github.com/landro](http://github.com/landro) / @landro
+
+### If keen to work with this kinda stuff, come see me!
+### We're hiring: jobb@bekk.no
